@@ -6,14 +6,6 @@ const GifCard = ({ gif }) => {
         <Figure>
             <Figure.Image src={gif.images.fixed_height.url} alt="gif" rounded />            
         </Figure>
-        // <CardColumns>
-        //     <Card>
-        //         <Card.Img src={gif.images.fixed_height.url} alt="gif" variant="top" />
-        //         <Card.Body>
-        //             <Card.Link href={gif.url}>{gif.title} </Card.Link>
-        //         </Card.Body>
-        //     </Card>
-        // </CardColumns>
     )
 }
 
